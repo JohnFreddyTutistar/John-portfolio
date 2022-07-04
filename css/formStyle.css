@@ -1,0 +1,23 @@
+.card-body {
+    -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 20px 0 rgba(146, 145, 145, 0.3);
+    border: none;
+}
+
+.container .navbar img {
+    width: 80px;
+    margin-left: 10px;
+}
+
+.rotate {
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+}
+
+.rotate:hover {
+    transform: rotateY(180deg);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
