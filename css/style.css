@@ -27,7 +27,7 @@ a{
 .logo-container img {
     position: absolute;
     transition: opacity 0.1s ease-in-out;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -47,7 +47,7 @@ a{
 
 /*main*/
 .img-fuid {
-    margin-top: 350px;
+    margin-top: 498px;
     max-width: 100%;
     height: auto;
     opacity: 0.8;
@@ -67,8 +67,8 @@ a{
 }
 
 .about-me {
-    width: 600px;
-    height: 200px;
+    width: 500px;
+    height: 220px;
     position: absolute;
     top: 50%;
     left: 50%;
