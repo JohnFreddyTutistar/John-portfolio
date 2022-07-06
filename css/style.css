@@ -180,7 +180,7 @@ b {
     width: 55px;
     height: 55px;
     line-height: 60px;
-    margin: 0 30px;
+    margin: 0 10px;
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
@@ -202,8 +202,6 @@ b {
 }
 
 .wrapper ul li:hover .fa-instagram {
-    /* color: linear-gradient(to right, #515bd4, #8134af, #dd2a7b, #feda77, #f58529);
-    text-shadow: linear-gradient(to right, #515bd4, #8134af, #dd2a7b, #feda77, #f58529); */
     color: #dd2a7b;
     text-shadow: #dd2a7b;
     transition: all 0.5s ease;
@@ -245,9 +243,9 @@ b {
     transition: all 0.5s ease;
 }
 
-@media screen and(max-width: 560px) {
+/* @media screen and(max-width: 560px) {
     .wrapper {
-        width: 350px;
+        width: 300px;
     }
 
     .wrapper ul li {
@@ -257,7 +255,7 @@ b {
     .wrapper ul li.linkedin {
         margin-left: 60px;
     }
-}
+} */
 
 footer {
     background: radial-gradient(closest-side, #374b70, #293a5a, #161f30);
