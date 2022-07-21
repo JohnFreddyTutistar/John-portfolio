@@ -10,7 +10,7 @@ const alertSuccess = document.querySelector("#alertSuccess");
 
 const pintarMensajeEnviado = () => {
     alertSuccess.classList.remove('d-none');
-    alertSuccess.textContent = "Mensaje enviado con éxito";
+    alertSuccess.textContent = "Message sent succesfully";
 }
 
 const pintarMensajeError = (errores) => {
@@ -81,8 +81,6 @@ btnSubmit.addEventListener("click", e => {
         pintarMensajeError(errores)
         return
     }
-
-    console.log("Formulario enviado")
 
     pintarMensajeEnviado()
 });
