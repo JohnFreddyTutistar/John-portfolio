@@ -3,6 +3,10 @@ const userEmail = document.querySelector("#userEmail");
 const message = document.querySelector("#message")
 const btnSubmit = document.querySelector("#btnSubmit");
 
+const alertName = document.querySelector("#alertName");
+const alertEmail = document.querySelector("#alertEmail");
+const alertSuccess = document.querySelector("#alertSuccess");
+
 const regUserName = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
 const regUserEmail = /^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$/;
 const regMessage = /^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$/;
