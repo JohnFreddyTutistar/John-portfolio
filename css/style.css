@@ -32,7 +32,7 @@ a {
 .skills-section {
   position: relative;
   border-radius: 10px;
-  margin-top: -60px;
+  margin-top: -75px;
   background: #fff;
 }
 
@@ -358,7 +358,7 @@ html {
   height: 48px;
   justify-content: center;
   line-height: 24px;
-  min-width: 140px;
+  /* min-width: 120px; */
   outline: 0;
   padding: 0 17px;
   text-align: center;
@@ -380,10 +380,4 @@ html {
   border-color: rgb(161, 197, 250);
   color: rgb(161, 197, 250);
   fill: rgb(161, 197, 250);
-}
-
-@media (min-width: 768px) {
-  .button-59 {
-    min-width: 170px;
-  }
 }
