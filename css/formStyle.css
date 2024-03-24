@@ -60,9 +60,3 @@ a{
     color: rgb(161, 197, 250);
     fill: rgb(161, 197, 250);
   }
-  
-  @media (min-width: 768px) {
-    .button-59 {
-      min-width: 170px;
-    }
-  }

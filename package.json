@@ -1,0 +1,19 @@
+{
+  "name": "john-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnFreddyTutistar/John-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnFreddyTutistar/John-portfolio/issues"
+  },
+  "homepage": "https://github.com/JohnFreddyTutistar/John-portfolio#readme"
+}
