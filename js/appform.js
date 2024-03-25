@@ -34,10 +34,6 @@ btnSubmit.addEventListener("click", e => {
 
     const errores = []
 
-    console.log(regUserName.test(userName.value))
-    console.log(regUserEmail.test(userEmail.value))
-    console.log(regMessage.test(message.value))
-
     //validacion nombre de usuario
 
     if (!regUserName.test(userName.value) || !userName.value.trim()) {
