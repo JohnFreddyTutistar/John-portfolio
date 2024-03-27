@@ -80,6 +80,10 @@ a{
     color: rgb(2, 2, 193) !important;
   }
 
+  .getIntouch-button {
+    display: none;
+  }
+
   @media (max-width: 480px) {
     .getIntouch-button {
       display: block;
