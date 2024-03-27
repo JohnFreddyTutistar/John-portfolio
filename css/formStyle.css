@@ -60,3 +60,17 @@ a{
     color: rgb(161, 197, 250);
     fill: rgb(161, 197, 250);
   }
+
+  .home-button {
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .home-button {
+      display: block;
+      padding-right: 10px;
+    }
+    .showFullScreen{
+      display: none;
+    }
+  }

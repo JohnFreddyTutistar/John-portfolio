@@ -6,6 +6,10 @@
   font-size: 55px;
 }
 
+.getIntouch-button {
+  display: none;
+}
+
 .subtitle {
   font-family: "Concert One", cursive;
   font-size: 40px;
@@ -380,4 +384,14 @@ html {
   border-color: rgb(161, 197, 250);
   color: rgb(161, 197, 250);
   fill: rgb(161, 197, 250);
+}
+
+@media (max-width: 480px) {
+  .getIntouch-button {
+    display: block;
+    padding-right: 10px;
+  }
+  .showFullScreen{
+    display: none;
+  }
 }

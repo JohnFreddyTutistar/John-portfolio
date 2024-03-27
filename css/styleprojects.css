@@ -79,3 +79,13 @@ a{
   .contact{
     color: rgb(2, 2, 193) !important;
   }
+
+  @media (max-width: 480px) {
+    .getIntouch-button {
+      display: block;
+      padding-right: 10px;
+    }
+    .showFullScreen{
+      display: none;
+    }
+  }
